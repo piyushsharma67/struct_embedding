@@ -26,7 +26,7 @@ func (p *Position)teleportPlayer(x,y float64){
 
 type Player struct{
 	Position
-	SpecialPosition // embedded two structs inside the Plaer struct hence getting their attached properties and methods
+	SpecialPosition // embedded two structs inside the Player struct hence getting their attached properties and methods which are accessible inside the main
 }
 
 
